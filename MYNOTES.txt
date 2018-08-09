@@ -14,3 +14,5 @@ $ python /e/miniconda2/envs/hueytest1/Scripts/huey_consumer.exe run_huey.huey
 
 $ export APP_SETTINGS=app.config.DevelopmentConfig
 $ python run_app.py
+
+https://stackoverflow.com/questions/48464893/path-to-python-executable-on-heroku

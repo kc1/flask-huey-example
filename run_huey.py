@@ -6,10 +6,9 @@ from huey_config import config
 from app.extensions.queue import create_huey
 huey = create_huey(config)
 
-from app.tasks import (
-    send_async_email,
-    dummy_task
-)
+# from app.tasks import send_async_email
+from app.tasks import dummy_task
+
 
 if __name__ == '__main__':
     pass

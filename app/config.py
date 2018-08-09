@@ -17,6 +17,8 @@ class Config(object):
 
 
 class ProductionConfig(Config):
+
+    REDIS_URL = os.getenv('REDISTOGO_URL')
     pass
 
 
